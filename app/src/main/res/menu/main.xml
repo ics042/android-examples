@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_list"
+        android:orderInCategory="100"
+        android:title="List View"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_grid"
+        android:orderInCategory="100"
+        android:title="Grid View"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_horizon_grid"
+        android:orderInCategory="100"
+        android:title="Horizontal Grid View"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_staggered"
+        android:orderInCategory="100"
+        android:title="Staggered"
+        app:showAsAction="never" />
+</menu>
