@@ -16,6 +16,7 @@ import com.tsun.framework.slide.activity.SlideActivity;
 import com.tsun.framework.tablayout.activity.TabLayoutActivity;
 import com.tsun.framework.adapter.CommonFrameworkAdapter;
 import com.tsun.framework.base.BaseFragment;
+import com.tsun.framework.webview.WebViewActivity;
 
 public class CommonFragment extends BaseFragment implements AdapterView.OnItemClickListener {
 
@@ -32,7 +33,7 @@ public class CommonFragment extends BaseFragment implements AdapterView.OnItemCl
     }
     protected void initData() {
         super.initData();
-        data = new String[]{"OKHttp", "JSON", "Video"};
+        data = new String[]{"OKHttp", "JSON", "WebView", "Video"};
         adapter = new CommonFrameworkAdapter(mContext, data);
         lvCommon.setAdapter(adapter);
     }
@@ -51,6 +52,9 @@ public class CommonFragment extends BaseFragment implements AdapterView.OnItemCl
             startActivity(intent);
         } else if (("json").equals(tmp.toLowerCase())) {
             Intent intent = new Intent(mContext, JsonActivity.class);
+            startActivity(intent);
+        } else if (("webview").equals(tmp.toLowerCase())) {
+            Intent intent = new Intent(mContext, WebViewActivity.class);
             startActivity(intent);
         } else {
             Toast.makeText(mContext, "data=="+tmp, Toast.LENGTH_SHORT).show();

@@ -39,6 +39,8 @@
             android:configChanges="orientation|screenSize|keyboardHidden"></activity>
         <activity android:name=".fragmentpagertab.FragmentPagerTabActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"></activity>
+        <activity android:name=".webview.WebViewActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
 
 android {
     compileSdkVersion 25
@@ -18,6 +19,9 @@ android {
         }
     }
 }
+greendao {
+    schemaVersion 2
+}
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
@@ -30,4 +34,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:design:25.3.0'
     compile 'com.android.support:recyclerview-v7:25.3.0'
+    compile 'org.greenrobot:greendao:3.2.2'
 }
