@@ -36,7 +36,7 @@ public class CommonFrameworkAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         TextView textView = new TextView(context);
-        textView.setPadding(50, 50, 0, 50);
+        textView.setPadding(50, 30, 0, 30);
         textView.setTextColor(Color.BLACK);
         textView.setTextSize(20);
         textView.setText(data[position]);

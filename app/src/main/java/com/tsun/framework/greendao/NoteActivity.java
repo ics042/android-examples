@@ -3,6 +3,7 @@ package com.tsun.framework.greendao;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 
 import com.tsun.framework.App;
@@ -10,7 +11,7 @@ import com.tsun.framework.R;
 
 import org.greenrobot.greendao.query.Query;
 
-public class NoteActivity extends Activity {
+public class NoteActivity extends AppCompatActivity {
 
     private RecyclerView rvNote;
 

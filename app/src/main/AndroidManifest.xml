@@ -41,6 +41,8 @@
             android:configChanges="orientation|screenSize|keyboardHidden"></activity>
         <activity android:name=".webview.WebViewActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"></activity>
+        <activity android:name=".json.activity.JsonActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"></activity>
     </application>
 
 </manifest>

@@ -4,9 +4,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by Ben on 27/06/2017.
- */
 
 public class NoteAdapter extends RecyclerView.Adapter<NoteViewHolder> {
     @Override
